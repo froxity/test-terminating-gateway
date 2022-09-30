@@ -1,0 +1,67 @@
+// Last Template Update
+// Name: Anwar bin Ridzwan
+// Date: 09/08/2022
+
+// Last Modify Update
+// Name: Anwar bin Ridzwan
+// Date: 23/08/2022
+
+// NOTE: Remember to replace the this file name to the name of your project!!
+
+{
+  "folders": [
+    {
+      "path": ".."
+    },
+    {
+      "path": "../project"
+    },
+  ],
+  "settings": {
+    // Editor Settings
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "[markdown]": {
+      "files.trimTrailingWhitespace": false
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+
+    // Files Settings
+    "files.eol": "\n",
+    "files.encoding": "utf8",
+    // "files.exclude": {
+    //   "workspace/markdown": true
+    // },
+
+    // Markdown Settings
+    "markdown.styles": [
+      "./workspace/markdown/markdown_style/bootstrap.min.css",
+      "./workspace/markdown/markdown_style/dark-mode.css"
+    ],
+    "markdown.preview.scrollEditorWithPreview": false,
+    "markdown.preview.scrollPreviewWithEditor": false,
+
+    // Thunder Client Settings
+    "thunder-client.workspaceRelativePath": "./infra/thunder-client",
+    "thunder-client.httpVersion": "HTTP/1.1",
+    "thunder-client.requestTimeout": 10000,
+    "thunder-client.saveToWorkspace": true,
+    "[go]": {
+      "editor.defaultFormatter": "golang.go"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "golang.go",
+      "esbenp.prettier-vscode",
+      "pkief.material-icon-theme",
+      "oderwat.indent-rainbow",
+      "mhutchie.git-graph",
+      "ms-azuretools.vscode-docker",
+      "hashicorp.hcl",
+      "rangav.vscode-thunder-client"
+    ]
+  }
+}
