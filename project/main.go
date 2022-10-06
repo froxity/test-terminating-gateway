@@ -18,8 +18,8 @@ func main() {
 }
 
 func test(){
-	resp, err := http.Get("http://learn.hashicorp.com")
-	// resp, err := http.Get("http://127.0.0.1:9001")
+	// resp, err := http.Get("http://learn.hashicorp.com")
+	resp, err := http.Get("http://127.0.0.1:9001")
 	if err != nil {
 		log.Println("err1:", err)
 	}

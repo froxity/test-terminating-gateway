@@ -17,6 +17,8 @@ job "terminating" {
           terminating {
             service {
               name = "learn"
+              ca_file = "/etc/ssl/certs/ca-certificates.crt"
+              sni     = "www.google.com"
             }
           }
         }

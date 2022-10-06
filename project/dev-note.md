@@ -1,4 +1,4 @@
-``` bash
+```bash
 
 # test go project directly
 go run main.go
@@ -24,6 +24,7 @@ nomad run terminating.nomad
 nomad stop -purge terminating
 
 # start app
+docker build . -t test:0.0.0
 nomad run test.nomad
 # stop app
 nomad stop -purge test
